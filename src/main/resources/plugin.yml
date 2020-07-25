@@ -1,0 +1,12 @@
+name: HubsSurvival
+version: ${project.version}
+main: su.hubs.hubssurvival.HubsSurvival
+api-version: 1.16
+prefix: HubsSurvival
+authors: [PodLis]
+description: Plugin to Classical Hubs Survival
+website: hubs.su
+
+commands:
+  spawn:
+    description: "tp to spawn"
