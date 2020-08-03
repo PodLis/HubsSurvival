@@ -135,7 +135,7 @@
         <dependency>
             <groupId>su.hubs.hubscore</groupId>
             <artifactId>HubsCore</artifactId>
-            <version>0.9.7</version>
+            <version>0.9.8</version>
             <scope>system</scope>
             <systemPath>${basedir}/lib/original-HubsCore-0.9.8.jar</systemPath>
         </dependency>
