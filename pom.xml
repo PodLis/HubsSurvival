@@ -6,7 +6,7 @@
 
     <groupId>su.hubs</groupId>
     <artifactId>HubsSurvival</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
     <packaging>jar</packaging>
 
     <name>HubsSurvival</name>
@@ -108,6 +108,10 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>sk89q-repo</id>
+            <url>http://maven.sk89q.com/repo/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -129,11 +133,17 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>ru.hubsmc.hubscore</groupId>
+            <groupId>su.hubs.hubscore</groupId>
             <artifactId>HubsCore</artifactId>
             <version>0.9.7</version>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/original-HubsCore-0.9.7.jar</systemPath>
+            <systemPath>${basedir}/lib/original-HubsCore-0.9.8.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sk89q</groupId>
+            <artifactId>worldguard</artifactId>
+            <version>6.1</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>

@@ -6,7 +6,3 @@ prefix: HubsSurvival
 authors: [PodLis]
 description: Plugin to Classical Hubs Survival
 website: hubs.su
-
-commands:
-  spawn:
-    description: "tp to spawn"
